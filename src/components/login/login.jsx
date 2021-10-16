@@ -48,9 +48,8 @@ const Login = () => {
   return (
     <div className={classes.root}>
       <Typography variant="h4">LogIn</Typography>
-
+      username:rando@random.com password:password
       {error ? <Alert severity="warning">{error}</Alert> : null}
-
       <form onSubmit={handleSubmit}>
         <Box display="flex" flexDirection="column">
           <TextField
